@@ -12,7 +12,7 @@ class Pancake extends React.Component {
 
   
   componentDidMount() {
-    this.updateCounter()
+    this.startInterval()
   }
 
   componentWillUnmount() {
